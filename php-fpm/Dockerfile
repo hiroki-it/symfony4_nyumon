@@ -1,7 +1,10 @@
+# Dockerイメージを指定
 FROM alpine:3.10
 
+# イメージにメタデータを付与
 LABEL maintainer="Vincent Composieux <vincent.composieux@gmail.com>"
 
+# Dockerイメージをインストール
 RUN apk add --update --no-cache \
     coreutils \
     php7-fpm \
@@ -34,18 +37,24 @@ RUN apk add --update --no-cache \
     make \
     curl
 
+# Composerのインストールと実行
 RUN echo "$(curl -sS https://composer.github.io/installer.sig) -" > composer-setup.php.sig \
         && curl -sS https://getcomposer.org/installer | tee composer-setup.php | sha384sum -c composer-setup.php.sig \
         && php composer-setup.php && rm composer-setup.php* \
         && chmod +x composer.phar && mv composer.phar /usr/bin/composer
 
+#
 COPY symfony.ini /etc/php7/conf.d/
 COPY symfony.ini /etc/php7/cli/conf.d/
 COPY xdebug.ini  /etc/php7/conf.d/
 
 COPY symfony.pool.conf /etc/php7/php-fpm.d/
 
+# docker run コマンドの実行時に、同時に実行される
 CMD ["php-fpm7", "-F"]
 
+# コンテナでのワーキングディレクトリを指定
 WORKDIR /var/www/symfony
+
+# コンテナが外部に公開するポート番号を開放
 EXPOSE 9001
