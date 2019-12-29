@@ -1,8 +1,0 @@
-172.20.0.1 - - [28/Dec/2019:18:42:32 +0000] "GET / HTTP/1.1" 504 562 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:18:42:37 +0000] "GET /favicon.ico HTTP/1.1" 499 0 "http://symfony.localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:20:48:10 +0000] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:21:02:36 +0000] "GET / HTTP/1.1" 404 21444 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:21:02:37 +0000] "GET /favicon.ico HTTP/1.1" 404 42100 "http://symfony.localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:21:02:39 +0000] "GET /_wdt/c865d8 HTTP/1.1" 200 3519 "http://symfony.localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:21:08:59 +0000] "GET / HTTP/1.1" 404 21437 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-172.20.0.1 - - [28/Dec/2019:21:09:00 +0000] "GET /_wdt/4045b4 HTTP/1.1" 200 3508 "http://symfony.localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
