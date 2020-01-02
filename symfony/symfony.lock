@@ -106,7 +106,7 @@
         "version": "2.2.3"
     },
     "php": {
-        "version": "7.2"
+        "version": "7.4"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.0.0"
@@ -116,6 +116,9 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "1.0.1"
+    },
+    "phpoption/phpoption": {
+        "version": "1.7.2"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -496,6 +499,9 @@
     },
     "twig/twig": {
         "version": "v3.0.1"
+    },
+    "vlucas/phpdotenv": {
+        "version": "v4.1.0"
     },
     "webmozart/assert": {
         "version": "1.6.0"
