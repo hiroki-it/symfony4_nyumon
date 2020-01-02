@@ -1,3 +1,10 @@
+# builds: Dockerfileのディレクトリの相対パス
+# ports: コンテナのポート番号：クライアントのポート番号
+# volumes: マウントするディレクトリのマッピング
+# environment: DBコンテナの環境変数
+# depends_on: コンテナが起動する順番
+# networks: ？？？
+
 version: '3.7'
 services:
 
@@ -9,10 +16,10 @@ services:
         ports:
             - "3306:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: root
+            MYSQL_ROOT_PASSWORD: root # rootユーザのパス
             MYSQL_DATABASE: symfony
-            MYSQL_USER: symfony
-            MYSQL_PASSWORD: symfony
+            MYSQL_USER: symfony # 非rootユーザの定義
+            MYSQL_PASSWORD: symfony # 非rootユーザのパス
         networks:
             - db
 
