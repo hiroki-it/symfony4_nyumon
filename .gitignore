@@ -1,5 +1,5 @@
 
-## symfony
+## File
 /symfony/.env
 /symfony/.env.local
 /symfony/.env.local.php
@@ -13,7 +13,6 @@
 /symfony/.phpunit.result.cache
 /symfony/phpunit.xml
 
-## root
+## Folder
 /logs/
-/vendor/
 /.idea/
