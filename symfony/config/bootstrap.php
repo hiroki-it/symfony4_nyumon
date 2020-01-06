@@ -14,6 +14,8 @@ if (is_array($env = @include dirname(__DIR__).'/.env.local.php') && ($_SERVER['A
     throw new RuntimeException('Please run "composer require symfony/dotenv" to load the ".env" files configuring the application.');
 } else {
     // load all the .env files
+    // getenv()が使用できるようになる
+    // https://github.com/symfony/dotenv
     (new Dotenv(false))->loadEnv(dirname(__DIR__).'/.env');
 }
 
