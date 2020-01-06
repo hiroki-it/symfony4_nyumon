@@ -117,9 +117,6 @@
     "phpdocumentor/type-resolver": {
         "version": "1.0.1"
     },
-    "phpoption/phpoption": {
-        "version": "1.7.2"
-    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -491,6 +488,15 @@
             "config/routes/dev/web_profiler.yaml"
         ]
     },
+    "symfony/web-server-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "dae9b39fd6717970be7601101ce5aa960bf53d9a"
+        }
+    },
     "symfony/yaml": {
         "version": "v4.4.2"
     },
@@ -499,9 +505,6 @@
     },
     "twig/twig": {
         "version": "v3.0.1"
-    },
-    "vlucas/phpdotenv": {
-        "version": "v4.1.0"
     },
     "webmozart/assert": {
         "version": "1.6.0"
